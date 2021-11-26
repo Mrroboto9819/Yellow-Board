@@ -44,7 +44,7 @@ Remember to create 2 accounts (teacher, student)
 
 ## Screen Shots
 
-#### [Login](https://ibb.co/ZgSgh9m)
+#### Login
 
 <a href="https://ibb.co/ZgSgh9m"><img src="https://i.ibb.co/my0yHp8/login.png" alt="login" border="0"></a>
 
