@@ -40,6 +40,8 @@ use this user to login in to the app
 
 Remember to create 2 accounts (teacher, student)
 
+***if image are not saving some times you need to create the folders go to public an creade the folders public/delivery and public/documents***
+
 ## Screen Shots
 
 #### [Login](https://ibb.co/ZgSgh9m)
