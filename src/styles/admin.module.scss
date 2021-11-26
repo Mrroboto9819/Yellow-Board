@@ -1,0 +1,480 @@
+.admin {
+  width: 80%;
+  border: 1px solid rgb(189, 189, 189);
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 90vh;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  &Cont {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-gap: 3rem;
+  }
+}
+
+.adminUsers {
+  width: 80%;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid rgb(189, 189, 189);
+  background-color: #dddddd;
+  border-radius: 1rem;
+  &Search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 90%;
+    margin: 3rem auto;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  &Cont {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    position: relative;
+
+    &Search {
+      width: 50%;
+      height: 80rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  &Left {
+    width: 100%;
+    height: 70rem;
+    padding: 0rem;
+    overflow-y: scroll;
+    scrollbar-color: #babac0 #fff;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+      background-color: #fff;
+      width: 16px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #fff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #babac0;
+      border-radius: 16px;
+      border: 4px solid #fff;
+    }
+
+    &::-webkit-scrollbar-button {
+      display: none;
+    }
+  }
+  &Right {
+    width: 50%;
+
+    &Cont {
+      width: 80%;
+      height: auto;
+    }
+  }
+}
+.Header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: space-between;
+  &ButtonCont {
+    width: 35rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  &Title {
+    font-size: 3rem;
+    font-weight: bold;
+    &Dash {
+      background-color: #ffffff;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 80%;
+      margin: 2rem auto;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+  &Btn {
+    font-size: 2rem;
+    &Path {
+      font-size: 2rem;
+      float: right;
+    }
+  }
+}
+.Card {
+  margin: 0 auto;
+  width: 20rem;
+  border-radius: 1rem;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &Image {
+    max-height: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
+    min-height: 20rem;
+    object-fit: cover;
+  }
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    background: #f2994a;
+    background: -webkit-linear-gradient(to right, #f2994a, #f2c94c);
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(255, 200, 82);
+  }
+  &:active {
+    transform: scale(1);
+    transition: 0.5s;
+    background-color: rgba(255, 200, 82, 0.815);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  }
+  &Footer {
+    display: flex;
+    justify-content: space-between;
+
+    Button {
+      font-size: 2rem;
+    }
+  }
+  &Body {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.CardProfile {
+  width: 80%;
+  margin: 3rem auto;
+  min-width: 320px;
+  min-height: 200px;
+  padding: 1.5rem;
+  font-size: 1vw;
+  &Img {
+    margin: 1rem auto;
+    width: 100%;
+    height: 100%;
+    max-height: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
+    min-height: 20rem;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.usersGobal {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10rem;
+  display: block;
+}
+
+.userInfo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  &Direccion {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.Modal {
+  &Header {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    font-size: 30rem;
+    font-weight: 1000;
+  }
+  &Footer {
+    width: 100%;
+    border-top: 1px solid #000;
+  }
+}
+
+.forms {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  span {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+  }
+  &two {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+  }
+  label {
+    margin-left: 1rem;
+  }
+}
+
+.addInputs {
+  width: 100%;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.loadingUsers {
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.coursesAlert {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  &Text {
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+}
+
+.search {
+  display: flex;
+  width: 80%;
+  Button {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+
+.alert {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 100;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Text {
+  width: 100%;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.dropdown {
+  text-align: center;
+  &BTN {
+    font-size: 1.5rem;
+  }
+  &Item {
+    font-size: 1.5rem;
+  }
+  &Menu {
+    z-index: 999999999;
+  }
+}
+
+.Delete {
+  color: rgba(255, 0, 0, 0.671);
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+  }
+}
+.mainCont {
+  width: 100%;
+  height: 30rem;
+}
+
+.mainCard {
+  width: 80%;
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem auto;
+  transition: 0.5s;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.coursesCont {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(55rem, 1fr));
+  overflow-y: scroll;
+  scrollbar-color: #babac0 #fff;
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+.datacont {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  p {
+    margin: 0;
+  }
+}
+.team {
+  text-align: start;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+}
+.data {
+  padding: 1rem;
+  text-align: end;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.bgcolor {
+  padding: 2rem;
+  background-image: url(../../public/assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Tables {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nothing {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+}

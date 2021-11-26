@@ -1,0 +1,171 @@
+.Main {
+  width: 100%;
+  background-image: url(../../public/assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  &Container {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0rem auto;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: #ffffff;
+  }
+  &Header {
+    width: 100%;
+    padding: 3rem 8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &Title {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    Button {
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+  }
+
+  &Content {
+    width: 95%;
+    margin: 0 auto;
+
+    &Title {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    &Activitys {
+      width: 100%;
+      // height: 70rem;
+      margin: 4rem auto;
+      overflow-y: scroll;
+      scrollbar-color: #babac0 #fff;
+      scrollbar-width: thin;
+      &::-webkit-scrollbar {
+        background-color: #fff;
+        width: 16px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #fff;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #babac0;
+        border-radius: 16px;
+        border: 4px solid #fff;
+      }
+
+      &::-webkit-scrollbar-button {
+        display: none;
+      }
+    }
+  }
+}
+
+.the404 {
+  width: 100%;
+  height: 100vh;
+  padding: 10rem;
+  &Text {
+    font-size: 6rem;
+    font-weight: bolder;
+    &Small {
+      font-size: 3rem;
+    }
+  }
+  &Img {
+    width: 30%;
+  }
+  Button {
+    font-size: 2rem;
+  }
+}
+
+.headerM {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.alert {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 10000;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+.AlertText {
+  color: #000;
+  background-color: #deff231f;
+  width: 80%;
+  font-size: 2vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.Filess {
+  width: 100%;
+  &Cont {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2e2e2;
+    border-radius: 1rem;
+
+    &Data {
+      display: flex;
+      &Title {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      &Text {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+    }
+    &Descargas {
+      font-size: 1.5rem;
+      color: #5ba6ec;
+    }
+    img {
+      width: 6.5rem;
+      height: 7rem;
+    }
+    Button {
+      font-size: 1.5rem;
+      max-height: 4rem;
+    }
+  }
+}
+
+.Inputs {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.BTN {
+  font-size: 2rem;
+  float: right;
+}

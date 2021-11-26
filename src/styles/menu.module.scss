@@ -1,0 +1,49 @@
+.menu {
+  width: 15vw;
+  background-image: url(../../public/assets/img/sidebar.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1rem 0rem 3rem rgb(0, 0, 0, 0.3);
+  max-width: 29.4rem;
+  height: auto;
+  min-height: 100vh;
+}
+.menu a {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  text-align: end;
+  display: block;
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  transition: 0.5s;
+}
+.menu a:hover {
+  background-color: rgb(0, 0, 0, 0.7);
+  transition: 0.5s;
+  color: #e4e4e4;
+  margin-left: 1rem;
+  border-radius: 3rem 0 0 3rem;
+  font-weight: 600;
+}
+.menu a:active {
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+  color: #e4e4e4;
+  margin-left: 1rem;
+  border-radius: 3rem 0 0 3rem;
+}
+
+.user {
+  padding: 0.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(197, 148, 0, 0.5);
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 1rem rgb(0, 0, 0, 0.8);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  transition: 2s;
+}

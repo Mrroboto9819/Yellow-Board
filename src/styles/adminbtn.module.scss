@@ -1,0 +1,39 @@
+.btn {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(163, 163, 163);
+  background-color: rgb(238, 238, 238);
+  max-height: 20rem;
+  margin: 2rem auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    background: #f2994a;
+    background: -webkit-linear-gradient(to right, #f2994a, #f2c94c);
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(255, 200, 82);
+  }
+  &:active {
+    transform: scale(1);
+    transition: 0.1s;
+    background-color: rgba(255, 200, 82, 0.815);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  }
+  &Title {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  &Img {
+    padding: 2rem;
+    max-width: 10rem;
+  }
+}

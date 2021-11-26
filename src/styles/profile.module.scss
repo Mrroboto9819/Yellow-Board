@@ -1,0 +1,103 @@
+.profilePicture {
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+  height: 25rem;
+  width: 25rem;
+  margin-right: 30px;
+  object-fit: cover;
+}
+.cardProfile {
+  background-color: #e3e1e1;
+  width: 100%;
+  border-radius: 4.5rem;
+  padding: 5rem;
+  // height: auto;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+.contenido {
+  display: flex;
+  height: 100%;
+  margin: 3rem;
+  font-size: 2rem;
+}
+.cardProfile span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.continue {
+  width: 50rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.continue input {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.BTN {
+  font-size: 2rem;
+  margin: 2rem 0.5rem;
+}
+.alert {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 100;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,121 @@
+.Foreground {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 57rem;
+  background: rgba(255, 242, 122, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%Username {
+  // position: absolute;
+  width: 298px;
+  height: 50px;
+  left: 603px;
+  top: 631px;
+
+  background: #ffffff;
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  padding-left: 3rem;
+  margin: 1rem;
+}
+.Username {
+  @extend %Username;
+}
+.Password {
+  @extend %Username;
+}
+.Ingresar {
+  width: 139px;
+  height: 57px;
+  left: 1232px;
+  top: 631px;
+
+  background: #413a45;
+  border-radius: 20px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  transition: 1s;
+  text-align: center;
+}
+
+.Ingresar:hover {
+  transition: 1s;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #000;
+}
+.alert {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 10;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

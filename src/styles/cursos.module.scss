@@ -1,0 +1,67 @@
+.Main {
+  width: 100%;
+  margin: 0 auto;
+  &Card {
+    width: 90%;
+    background-color: #000;
+    padding: 3rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    display: flex;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    &Options {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+
+      &Viewcourses {
+        font-size: 1.5rem;
+        max-height: 5rem;
+        border-radius: 1.5rem;
+        transition: 0.5s;
+        &:hover {
+          font-weight: bolder;
+          transition: 0.5s;
+        }
+      }
+      &CreateExam {
+        transition: 0.5s;
+        border-radius: 1rem;
+        background-color: rgb(255, 177, 60);
+        color: #fff;
+        font-size: 1.5rem;
+        max-height: 5rem;
+
+        &:hover {
+          transition: 0.5s;
+          font-weight: bolder;
+          color: #fff;
+        }
+      }
+    }
+    &Data {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      color: #fff;
+      &Name {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      &Students {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+.Cal {
+  width: 90%;
+  margin: 0 auto;
+  &Cont {
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+}
