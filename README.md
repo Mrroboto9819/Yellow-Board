@@ -1,7 +1,5 @@
 # YellowBoard Academy
 
-[Demo](https://www.yellowboard.avocadosnetwork.com)
-
 Welcome to yellowboad academy, where you can test your elementary skills or your children can reinforce their elementary knowledge for school.
 
 ## App made whit NodeJS in NextJS
